@@ -1,0 +1,52 @@
+{
+  "scope": "Native Windows development mode; no Linux sandbox or independent kernel.",
+  "config_sha256": "06625b36203ac284e2da8a778ef0a561312df6cdee82ad0af6395ac6968ff3e2",
+  "exporter_sha256": "a1b7df7bda1ad687e0181d0886045bfe4d3eaa79f490cb9650028a95f3685262",
+  "driver_sha256": "2b88802c3d35c852573e2bd61b4c8b6d49e658b43be72a889bba8498cdefabc2",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "started_utc": "2026-10-08T22:58:23.489953+00:00",
+  "theorem_names": [
+    "BelowSevenEighthsTight.PublicResults.rational_boundary_lt_frozen_baseline",
+    "BelowSevenEighthsTight.PublicResults.rational_boundary_lt_seven_eighths",
+    "BelowSevenEighthsTight.PublicResults.riemannZeta_ne_zero_of_rational_lt_re",
+    "BelowSevenEighthsTight.PublicResults.dirichlet_LFunction_ne_zero_of_rational_lt_re",
+    "BelowSevenEighthsTight.PublicResults.hecke_LFunction_ne_zero_of_rational_lt_re"
+  ],
+  "exports": {
+    "challenge": {
+      "module": "ComparatorChallenges.FrontierTightPublicBoundary",
+      "exit_code": 0,
+      "seconds": 102.67076897621155,
+      "source_sha256": "cae10c9b712ead12fb64402797d2416b79537926904d17917b04cf0ec12f4640",
+      "olean_sha256": "b5764c62d3c784d2e338bc30c79c29c7d8206b53d263cd65e2dc196d5208c954",
+      "stream_sha256": "2113cc73289b9e18089c52ce2f48ee669bbacc4a15dd918dfce44fbfc87c371f",
+      "bytes": 382528274,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "solution": {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary",
+      "exit_code": 0,
+      "seconds": 325.23681378364563,
+      "source_sha256": "007bcf8d9e617dfa1d5d8db4f80bf5f86ee4ce6a4193da912f29529b8cf9317a",
+      "olean_sha256": "b9e2325786b7174972326ad151de9a1d8018979c290070c39bfe47badbe761b1",
+      "stream_sha256": "dd5dd911679a32d48d8740495a28e0345fda900037471eba1fcdfb657f68b4db",
+      "bytes": 1704638764,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "all_package_search_paths_in_test_checkout": true,
+  "search_path_source": "Lake env reported assignments from the test checkout",
+  "search_path_entry_count": 44,
+  "replay": {
+    "exit_code": 0,
+    "seconds": 666.8565895557404,
+    "output": "STATEMENT_COMPARISON_PASSED\nAXIOM_AUDIT_PASSED\nKERNEL_REPLAY_AND_QUOTIENT_POSTCHECK_PASSED\nOFFLINE_REPLAY_PASSED: native Windows; production sandbox not exercised\n",
+    "log_sha256": "ff558a542d4fb5c31d2440e4db06916ea672dd9661396ac99516744b94976d0f"
+  },
+  "passed": true,
+  "completed_utc": "2026-10-08T23:16:45.512109+00:00"
+}

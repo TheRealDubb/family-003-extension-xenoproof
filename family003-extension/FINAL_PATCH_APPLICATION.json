@@ -1,0 +1,12 @@
+{
+  "final_patch_sha256": "dca95c069b6b31ca32da4e7f807e9b3f745f2e746688eb8e18bed994452e3d7f",
+  "base_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path_count": 193,
+  "literal_documented_apply_commands_passed": true,
+  "all_final_files_match_test_checkout": true,
+  "final_public_source_and_objects_match_fresh_replay": true,
+  "remaining_check": "none",
+  "final_documented_build_attempt": 3,
+  "final_documented_build_exit_code": 0,
+  "all_190_object_hashes_match_first_clean_build": true
+}

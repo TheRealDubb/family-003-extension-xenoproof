@@ -1,0 +1,10 @@
+{
+  "cwd": "lean",
+  "argv": [
+    "lake",
+    "build",
+    "OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary",
+    "ComparatorChallenges.FrontierTightPublicBoundary"
+  ],
+  "command": "lake build OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary ComparatorChallenges.FrontierTightPublicBoundary"
+}

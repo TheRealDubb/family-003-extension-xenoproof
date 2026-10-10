@@ -1,0 +1,780 @@
+{
+  "command": [
+    "lake",
+    "build",
+    "OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary",
+    "ComparatorChallenges.FrontierTightPublicBoundary"
+  ],
+  "cwd": "lean",
+  "exit_code": 0,
+  "attempt": 3,
+  "started_utc": "2026-10-08T23:17:03.301011+00:00",
+  "seconds": 479.2443816661835,
+  "log_sha256": "e7bee93bb4f3d50ce563800c84abb5a106f25a562412be08639e722e0a6bfc99",
+  "lake_binary_sha256": "9780a6abfb6d751c7958f2fd7f696154bdda8b46c0de9755c4080ffb8a8788e6",
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "proof_sources_unchanged_during_build": true,
+  "scope": "Fresh pinned source checkout plus independent baseline caches; no candidate artifacts copied in.",
+  "new_module_artifacts": [
+    {
+      "module": "OAI.BelowSevenEighthsTight.RationalCertificate",
+      "olean_sha256": "94570f54d08e8190a4589e599898af50fb5a3781c4a4bc662b00a50f84d95535"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityBounds",
+      "olean_sha256": "95a2b22aa4aa328831d52f298de18b38e888a4f5db0c92cb0f2d32056b1480b5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedRowCountGeometry",
+      "olean_sha256": "88eb8507e590434a4ec92d1e155c353088f71430559a7a05ac3b19d02ed55f38"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedRowCountEnvelope",
+      "olean_sha256": "1a9413f4d1d92f8460a5aabdaead72d21505ab63a4736e3f454c45cfa951d34b"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedRowCountBranches",
+      "olean_sha256": "6bd574e17924fe57917f1f1f67a556a4ec10bb64149eaccc2fb81baa4d1b6a37"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RationalRowCountConnection",
+      "olean_sha256": "db718c4c58b9115555d2b1b9eea3c107a30ef264e64835ed0772cbdad22acfd5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RationalEndpointConnection",
+      "olean_sha256": "c8b2e60248ac67836473e5b2601c9e7112dbf3c1b1a01295c84458d01badaf67"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedSourceNormalization",
+      "olean_sha256": "0e1bb5610a828959b58c8085eaf1495c586903f079d8fb2d180553fde614b0ba"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedCentralExponent",
+      "olean_sha256": "a6ba0b11b79609facbc9476063b8132b282f2c29921ae7212ea02b0225a7210d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedEulerRegion",
+      "olean_sha256": "779fe135d7f5f232e8ed36deb01e5aa2e5f1d56367ea361b2fc41c45c88ffe93"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CubicRoot",
+      "olean_sha256": "7df7c057a3a0097a18377aa8d60e34b03c253dff29ee04ce4630afd326d59341"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedGlobalCorrection",
+      "olean_sha256": "8c2d5b610df91671444a05fddb86b171fa7dadb8620663955740c7d070aa526d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedSlotEstimates",
+      "olean_sha256": "6b7605040b9005091a59150c3a0a9114ebd81a0975eb7ba625d79848faa79d82"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.FiniteProductBounds",
+      "olean_sha256": "14f8639ddc72a69b044e98c0d816830d396b9ba515e09730385de65c394d5c5f"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.FiniteProductX",
+      "olean_sha256": "5036eacc69b10a2a0cca20f509f9be7566cbb4fbb27dbdee6181d871d27f02b4"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.PrincipalContours",
+      "olean_sha256": "9d2fb83c8d88243281957d6021ddb0dade3a540e0005ece7634912608dec9c52"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.PrincipalTransport",
+      "olean_sha256": "b49c922f6b3e6f09aedfb95d6a2c1ffb0957f897e70eeea3b01947f1c941ef73"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.PrincipalPhysicalOrdered",
+      "olean_sha256": "8075214ebeb1015ba3273a0a54ed9c9da4b6e5b60c42ee634d2134442dd9ed0d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.PrincipalRemainderBounds",
+      "olean_sha256": "afd301f2a7291d49751dabfd6a330966791bc1dec8ce2bef10a580b37e32e8a6"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.PrincipalPhysicalRemainder",
+      "olean_sha256": "4fea5c3f15e2fa32f30d0cdca94393ba903a2559187f4e6ffaed7de4c2d57098"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedSignalBounds",
+      "olean_sha256": "883284a704ad673cd9b7d55115005107c469e6912501e1070b365072681e2ca0"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedPrincipalComparison",
+      "olean_sha256": "75e79fae91a6a45ad68a8e060a4880bff3ad21bfa953c58971dfce74e7e1d3a4"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedActualResidue",
+      "olean_sha256": "8980ccc5ed2926c3544ad5f710cd1053a6c7b1937d9e561458438647d9eca440"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.RayPoolThresholds",
+      "olean_sha256": "40e4039d2c21216efd94e6c42ffbb2de156e21f4af8235a03862eea389a7eb63"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.PrincipalRegionExtension.PrincipalNormalized",
+      "olean_sha256": "aa2417886717e59000a98dd46dcbc503cff923b88ef3f9b6b7ccb44ce0399736"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedRayNormalizer",
+      "olean_sha256": "29aa43ec3b22f054946c94675a3bb4386f1078ade3b550a437962e2d04c870d5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.TailScales",
+      "olean_sha256": "62a6134b051d5afb52468df60459bcc5a0e4f885cebe6f2234d12cd38b0f53ea"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CentralCosts",
+      "olean_sha256": "b121269b411cd70891cc60599b9fb424517bc5cab844b1149bc486d4295eb0c8"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CubeErrorSaving",
+      "olean_sha256": "888ff681f3b155863f2977ac2163f451e8635ac7e558ebb496cb4728a1fdb69c"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CentralTupleCount",
+      "olean_sha256": "4c9dfa648236ac01eab7c662757cc609f3397faef213ab7acd2ba13f3b8c3728"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CubeFiniteError",
+      "olean_sha256": "21d81aaba9ce5f4fa7493e54ed06e7c9269c5e944e84b2d74c5f983beda71192"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.LargeDyad",
+      "olean_sha256": "9fecf2faa09708a9fd547daa4644d6c38b03b3ae4c2bc95a963b44b0f9fe4106"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.GeometricTail",
+      "olean_sha256": "98105ca2ad0d62a1e3eb8f9c2bbd8c37471e55893689aa838c652daabe741986"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.LargeTail",
+      "olean_sha256": "ce40f9b1539d75993b01c813ed15f07b5d157c8509034d49d13560c403790cf0"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.LargeSaving",
+      "olean_sha256": "ab6b1697e8429d5d1f790307e1637a27b3865bcfb0478db7dcac24d06d63a90d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.PhysicalLargeTail",
+      "olean_sha256": "4033f71563fb4fb479f9a601334c863b5f26849306feaf1dcec9d5f78c1b8131"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.SmallTail",
+      "olean_sha256": "ed455f98c1493469c2664cfe34ccade51ca91c84d38ba4819f35617e7b81ead8"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.PhysicalSmallTail",
+      "olean_sha256": "767a9c92cc1bbe349878ded67f7c4eb0fc3fe578ac09fae3731379a164a169ad"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CanonicalTails",
+      "olean_sha256": "ffe0a60569a79ea033b5170801bd4bd6eb17c3e0874e1e3d0a3eec459ccfc840"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CanonicalReduction",
+      "olean_sha256": "9a2f81a86888f0e5979e29a500c6835fed400a4ab0ed277ead5e065d2ec21640"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CanonicalCubeReduction",
+      "olean_sha256": "499be97fa778d834c2b7d48a9ce6773683478d86833403faf6f6e03dc8afc131"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CanonicalCubeChoice",
+      "olean_sha256": "fd7d65528cc0c1bef358e24fa24d2d9eff78b8943fc9918a7bd681cb10e73a23"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.CanonicalRayCube",
+      "olean_sha256": "5ad56de034101afda6fe58a9fb4e6dc77a334d49f0a70b2b3cd2b939edbf03b9"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.NormalizedTransport",
+      "olean_sha256": "f4177d5dd8a5b71c9af3535b5d34eab7a8e9a9f2caccf1a23f78f8815a7a6f76"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.TailExtension.NormalizedTransportSaving",
+      "olean_sha256": "c331f55a46a54cd0f14fa665ded85c0f755903a1857995a1273570cf2980b9a6"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedAuxiliaryMargins",
+      "olean_sha256": "40b4b3d9251f80d944298febad8569fe21aad1c4c5929c725f9ae82adccb0b13"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedCubeSlotExponent",
+      "olean_sha256": "52cd60fd8d11928dc9af601db312390d4f2bfdcef68f5481194fa95e01bec4e0"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.FloorExtension.CubeFloorArithmetic",
+      "olean_sha256": "af66d31140f9519cced0d371d18a59ea5175ca91609a246d8e37a770cbd3a65b"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.FloorExtension.CubeFloorGlobal",
+      "olean_sha256": "8f49cc01b47a8958c0767e7b1cf8b3adf9bff8c9576c8f0be5dc944da9f9974d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.FloorExtension.CubeFloorGlobalIntegral",
+      "olean_sha256": "0de14084eb991a6c52a25d43d3a979843313d942f7b60a593be146f90933ada5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.FloorExtension.CubeFloorNormalized",
+      "olean_sha256": "ee49a9aab5f55281d5f8ce1dd55689801573a36e0c8333a8fc0c6f6cb39815e2"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.FloorExtension.CubeFloorSaving",
+      "olean_sha256": "a556fe2aa55a9257fe6b232f6ab7f4e4ddf5463605249ddf294731493e60aa82"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.FloorExtension.CubeFloorCollected",
+      "olean_sha256": "071d72e75bccc6ccb7b49b136ff47dad9ec0730896a66cbf005a2048fd5452e7"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.NonfloorTransport",
+      "olean_sha256": "1e9d5f8002c47406194ad3872ac650c796b34af4413101bff35dbfa41f940420"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedRawFiberBranches",
+      "olean_sha256": "a2b2aa5fb421d24aa8c3d442ca5324148b993ac7183e2e771de1596c243903e1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedDetectorBranchBudget",
+      "olean_sha256": "4a36f0e883f283150bb6c7ed284ccab134de65253b7bd2ff2d59518cb5314eea"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedCountFromMoments",
+      "olean_sha256": "da1511f71ff67ad64215e640b5c46f47bb61f28a5a42bae0feda0d74388ca71a"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedFixedAmplitudeCount",
+      "olean_sha256": "7464a01126341982b58c665c03c99cf1310170b9e22a44e6947339f5336f651a"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedAdaptiveCutoff",
+      "olean_sha256": "f892f95df0a23a8785152f733b4b86f2748678745cee3971df834fe3325387f8"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedAdaptiveCount",
+      "olean_sha256": "a1708741ac6fa1eef2c0d118b3738646daa127f2f3c01f027f06ff7741c3c40e"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedCountParameters",
+      "olean_sha256": "a4b3f475685a072dbc7c6d9505cf7462eea26efd70e65c03f3e5b23758982e27"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.FinalAssemblySourceCount",
+      "olean_sha256": "e63412ba8c794c97ac3adeb91a2065cc2a43ea36136e5fd4553f7f9df7a36dbe"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.CentralClassArithmetic",
+      "olean_sha256": "257e5640b334b592ccfd9382f4c88ec20577c3fb4fb05ca0b7e249118920014e"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.DetectorSlotSupply",
+      "olean_sha256": "be5c5a5cd1a9f30e765c7adf15e41c56b55e1f0f25c113df4b498aab1d27937f"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.SourceBatch",
+      "olean_sha256": "531a4d79d2f593344bb1b40dd8cc1d374f0251f34387bb17479b7fc172a5ccb2"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.SourceAmplitudeClasses",
+      "olean_sha256": "b4d02df9ea8332db50db18e4b020579949b4c0b91f4428fa6f68cf16f29fa9bc"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.RetunedSourceMoments",
+      "olean_sha256": "29748153837dd6df510427e73e948a06734d1fa2969afb20cadfcf4ab8c4dc6c"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.FinalAssemblyClass",
+      "olean_sha256": "33ca86b3c2e6eddad30f7df290f58b75f1942fbdf2fbeed0df82da58e54caa97"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedCentralSaving",
+      "olean_sha256": "06b6d61e683439c18475542be196987363f0e6f3eba00e0508ec6256064e8ca0"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.FinalAssemblyArithmetic",
+      "olean_sha256": "763830a461e196188037adfef1692058ddcb4e7f865da563c3fe1ef5a8cdeaf6"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.FinalAssemblyIntegral",
+      "olean_sha256": "ee91f0d2b9f6c05f3a2a040fb3cee13d6045cf79848f58d7c400af566faec8f3"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.FinalAssemblyNormalized",
+      "olean_sha256": "f39bfc2e297199a33fec9a74b11800217ea63ec9755a7633f9bd8afe88a6088d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.DetectorExtension.FinalAssemblyCollected",
+      "olean_sha256": "14126affe985f33a5ae3f4a8aefd1eb13ade70d43e3a6a29f1133b521bdcd3ae"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.FinalAssemblyHigh",
+      "olean_sha256": "bad96fe1d38bdbf18ac17aeba84c419d5f8ca1834529af8d6fdf656c59b16d0c"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedSlotLengths",
+      "olean_sha256": "beae12d86a80228f7c7d7cda2a05775573cfe2404fcefcc8ea5b2a3f601ef8c1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedHighData",
+      "olean_sha256": "71bbb807023e153ba3e9c4cebab4a97c779dd2d667cb93668c0e46c4959728c1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.AnalyticBudgets",
+      "olean_sha256": "f4908ee945b89440944e28c01214a9d2fe2dfd7a0dd51acf015506f6de192413"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedLowReflectionGeometry",
+      "olean_sha256": "1ff04d90d01decc4fd693da76b5c581b56304ef72fbf72454c5b6717fc780cf8"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowExponent",
+      "olean_sha256": "2c6d82c1ccb2b213870a2a413f66df993e59d915256bda8424a8466d73712e41"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowBranchSum",
+      "olean_sha256": "12c605b6b6f9c9ac7e99c986a231bc386fadf39b97976b765e710d158f421990"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowSector",
+      "olean_sha256": "b956f381135a79691b773bf51ac6f900ddd9dbea99fdeec75a9e6e1b2192258d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowRetained",
+      "olean_sha256": "ec0cb1a3f45d0edbcd312380435ee5df639d504ec7c97fbc20a22159bcb8db58"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowRetainedBudget",
+      "olean_sha256": "0fb064a93beb7309713a96f924945a880ae41efc8eae28a81886a669a3c4ab20"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowFull",
+      "olean_sha256": "e9abcd56017c41f6e9d1dd30e47b1687d54e03d483ccf7fcad286eff8055d71f"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowFullBudget",
+      "olean_sha256": "be9d9fc14cb9115af17a6fae528085f45ee77306600be8102eaf460d5437b6a2"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowGlobalBudget",
+      "olean_sha256": "a6afae1c6ae0adff8bfe508297bbfa7f496df763c693cfae2c2ccb31dd60ffea"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowMemberBudget",
+      "olean_sha256": "42571cb4dc923fe69e2a819b8a04ad7ade7193efa5b27b3a6c740c9d3ecbce09"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowMemberGeometry",
+      "olean_sha256": "03aeefd1b13be0d3b39c419dcaa480a8e259122552793590d0c8bc753e4da6d1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowCaps",
+      "olean_sha256": "d91543a6610b51a152b1f53d583766ac324f611818395051fb04f3e85f979803"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowFixedMember",
+      "olean_sha256": "81a6fee202c77baac3978426cb6409d5c43859107fffe2f41bf8f5d5855c0678"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowDyads",
+      "olean_sha256": "7975d34dcf893efc5d043b9fe457d1ac2663c72dadd837e12c4eb371bd4dee50"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowChoiceEnergy",
+      "olean_sha256": "a462745ad74243a61fb26f10ee49a29ce0077f0f66dc5bb9318e7535c07306b5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowInactiveEnergy",
+      "olean_sha256": "428b04630cdd774c2a69b1d864d9a1b9b324a0f3d0e015ece5e0e673c087ae59"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowFrozenEnergy",
+      "olean_sha256": "5f23edf1c9c22f30c0e61e7a54178362f1a9b2b20a08aeb3b243a880cdf6a495"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowCompletedFiber",
+      "olean_sha256": "7a1cdc8b67ad4fa9a158b3b2430572b959c71aa033a16cc71d71c78b62ec2234"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowCompletedRows",
+      "olean_sha256": "f36b7dc400f3c78fb8f5ee10d1396bc7c2c077da6340045c536c074f4252b4c8"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowOriginalEnergy",
+      "olean_sha256": "f62d55ba756c7bf7ba885b73852f9a62ba4be245d3994c20e92183fa0164db12"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowSelectedBound",
+      "olean_sha256": "6e6b600d67f6d1dd3a15fc7f175feb95f9fd5c39d8dff9a668c91dc3de5d91fa"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedLowNominalGeometry",
+      "olean_sha256": "ced5fb3f48762d222674de3fa47615d4729be4c8f3fc0ede67a7a0846165823b"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowNominalEnergy",
+      "olean_sha256": "7798ad079e6c0723ab2ae49716a75288d7b7fe1e391e3a52ae1dcc2d38ce7a6a"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedLowSourceScales",
+      "olean_sha256": "70b3cb1ae87d94a5d17ea68f2900b378de08ed50905b12918126df339f176bc2"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedLowInverseNormalize",
+      "olean_sha256": "e8b86744b4232a310bc930ca86badfc6bde6fa02c04d596a6c5f47b61b680f80"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowPhysicalInverseBound",
+      "olean_sha256": "4feb8efe00d2047a8c23555cdff3b293e001b314483022387e2bcf1954dc2dd9"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedLowSlotScales",
+      "olean_sha256": "01396e67e29132d188ee3eeb5bdf8dbbe1e61c43824d338f91eb2b68491f9449"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedUnselectedMass",
+      "olean_sha256": "b4845370390eb7ed72cca632fb3113d40ad2ecd4777846a47c48bb808e3d8e63"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowCentralTuple",
+      "olean_sha256": "01d3997e22851afa2502c9b200930a3e8ed0ef4e3dc2543ec5693efc592b8b86"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowGaussianDyad",
+      "olean_sha256": "51553586cbd91329a71cc45f863fc9e60c72ed28d4fa21006cfa7c44b367c919"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowGaussianCentral",
+      "olean_sha256": "f69488e913dcf6885988cf416a0493b2bc2722efb7e7e64ae8e764cfb331a36d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowRemoteMass",
+      "olean_sha256": "da4b051d42e80fdf0f4294e0366b479475fcf2ed2d52b8ebecd6e13b77051036"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowGaussianRemote",
+      "olean_sha256": "8680439c5ab8ba0e8b8ab454df579290915fb20bca1b66ea7085fa1330ce53d4"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowGaussianSum",
+      "olean_sha256": "32f22ff5fa08fcfadf02bfa0435126122c6a2c4ce4e42af55dcce2bba8f6fb8d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowCommonBound",
+      "olean_sha256": "a69a2cdfcd28af1cf814527f5cdfa2fbdf54eae273905eaa7b6045db47d46486"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowWindowBound",
+      "olean_sha256": "b6f980ef850b518b25ec63f8e7449c603bec3d8e059c805951ded0ac6a967744"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.LowNormalized",
+      "olean_sha256": "15cc75d1811c512798f31575d3aa554e88cd4799b6ea049dc3ffdb080905a70f"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.LowEnergyExtension.FinalAssemblySource",
+      "olean_sha256": "0ce523eff294b82339234d9c346b766ece3172a2bcde1a1723d85a6455da1331"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedSourceData",
+      "olean_sha256": "e07b44ab803be5d9d774b40ad6310902bcde340b254f4afa23b78a62708cdbf9"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CubicCertificate",
+      "olean_sha256": "d3c9a40414b641d2a4bc077c6ca81571bdb23c4a5c9dca346cd4baa8ad0fbc3f"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.GeometryObstruction",
+      "olean_sha256": "a8bbb10dbf5dff58e096ce2eaef844ad6971576ae39c4b0286130010c9c73b99"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CubicEndpoint",
+      "olean_sha256": "48f471f74aa30e9a5468e9bfab3c6935c66e7beacc7db00947eb8fcabaa684ca"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CubicLowSourceGeometry",
+      "olean_sha256": "b21549184a741f76b8631c1b6b5f333776ff766358a6c2addef29f58dd070765"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedSourceProbe",
+      "olean_sha256": "28070874b8702e68adf67d7b170a1f6eadcd4f11a38774df0a06ce8d37768c2f"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.RetunedSourceMomentInput",
+      "olean_sha256": "cbf2446fb1d080eefbb5a013da54485cee11e02125ffa4a0af46af7e2a054e1e"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.FinalAssemblyFixedHigh",
+      "olean_sha256": "ea22c7e158ebd68e8f60ba0091f58d75a34fd80cf058dadb93fa1135d7983394"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AnalyticBridge",
+      "olean_sha256": "72ea7c4d71fb6d1f343d426b188f0fcad01d55c639aeb4f0dabb59d4b1a1d6cb"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.CommonProbeFromMoments",
+      "olean_sha256": "b68755286e7b479939a6bba1e0907050641b0ab72d0cee597a46e01d81ea8f85"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.RetunedHighDataFine",
+      "olean_sha256": "dfb783bbcf137a0714efadf993b35b59e54fa2e69e8cbbd903e6bc1c6a2b5706"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorInverseRawField",
+      "olean_sha256": "b2aec374a4a362b5b65c8745d1155f3bef901c99eb6596ebcd87556172e06ed2"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorMomentPrimeGeometry",
+      "olean_sha256": "69beee731b53712b478d1be2d999db59c77f90792c72035d773cee40fbf38376"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.InverseMarkedReferencePrimeGates",
+      "olean_sha256": "ceebce284c53ff539e7ef18ca15d515d84e0d2a1f4f9edf36892551b687d25a1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.InverseMarkedReferenceDeletedEnergy",
+      "olean_sha256": "c1780c40fe42d0b8c3fa8836351b394a35383897726165ff6ca2e0e276dda518"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.InverseMarkedReferenceFiberEnergy",
+      "olean_sha256": "aa1723816b91c59d1652b0f2dd5d44d33a51b852b9a35af90e8d53bafb1ca8c1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorInverseMarkedField",
+      "olean_sha256": "ff85d727081d71406887a685edc56b70043eab4558833591cb91e055e7f43729"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorInverseFields",
+      "olean_sha256": "3bcc67d7a45d65d048d31602450b34980ea58bb4a29f9f862317c994043d5e12"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.NaturalFixedRaySourceFixedIdeal",
+      "olean_sha256": "36c89c979cf04b362cda0e9d6fa8be4693ddafb559de62679eaa5113a36328c0"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorEnergyInitialState",
+      "olean_sha256": "f90bc39c18df9021d5e3a9391e79961caf110bc2819eeae86c1983a078d7ac43"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.NaturalFixedRaySourceFreeExceptional",
+      "olean_sha256": "6179eea726118178740e7aabc28602c96e5cb7d28d239b52b91646f7130b8b6c"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainExceptional",
+      "olean_sha256": "f65c9eb467b65f0f1638f2d69f75b83f319ec647ddd3dfed4f3cbfebf06b9daa"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainSlotProfile",
+      "olean_sha256": "dac8f252b275a20a97ca97331cec87066033c90ef5595378f974289f9e2a5b83"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainCapacity",
+      "olean_sha256": "fcb0a207c935e484941731499d6671ae3d6f6f2022a9a1ab46b493f1ab6c7166"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainMarkedState",
+      "olean_sha256": "15e168bde34a45596a71f3e257b86c317966452f8f307d7d97c3ad0f0a5873d5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainMomentParameters",
+      "olean_sha256": "0d0a17b6c799aed8ef78a90d745fc20623af6d27665909a4aa00a30ad6c45d76"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainMarkedFineField",
+      "olean_sha256": "29183ce05b0eaf6e84f85745cc6baee6159465283765a21d4fc599dc77859dfd"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainUnmarkedField",
+      "olean_sha256": "799dbf64b664abeab275ebcb6a9c072c0fa41ef42a85fb2cddbe1a72b2a5b8bb"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainSourceAllowance",
+      "olean_sha256": "d2628eb2ecd0307ef3d395e2a62f08838fd1ee4efefa3766b6d1ab2ea7919351"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.DetectorPlainUnmarkedRestrictedField",
+      "olean_sha256": "2eda4b1d60878a8871bbec0c2bd5c43ee64480c81ab4383b46289cc6013938c6"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.ExtendedReflectionGeometry",
+      "olean_sha256": "ab07674d5f280a4775073361c4c204d83afba98adbafa99e88c00d518b05261a"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceState",
+      "olean_sha256": "af387b705197ca657539e222495f97d1d814f92615019c8762e986f6b2d30ef6"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceDivisors",
+      "olean_sha256": "5a8573253be5d5c409377667f37f2ebccc094435bdc622e0e32c195ea57c5e20"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.FirstSourceParameters",
+      "olean_sha256": "1204252769cad4040af77227c9b602a582fd1235f90e566558fa432eeb13ebfe"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceDeletionCapacity",
+      "olean_sha256": "1befd399892a8ed8397d5e19e3e1a121a7e9ae237b8151ac26c1bffb4183093d"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceDeletionClipped",
+      "olean_sha256": "cf07b81c45db251fd36861a6a7b2efb67358d8ca91a916a42096d5a9fb444c48"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceLowBranchGeometry",
+      "olean_sha256": "394a31faf91eaa26c55c9efe9732a366e814952b4da6ffc3a39660b489b91689"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceLowWindow",
+      "olean_sha256": "7319098df4592fdcca8a7d2a56fd87bb752e1a1f075196429a49781aecf184bb"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceLowDeletedGeometry",
+      "olean_sha256": "1a6bcad5e1964db5e5dbc2f5ef4c38437d5a2dd4029cc64842fc06f67d3b92b6"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.OriginalHighReflectionGeometry",
+      "olean_sha256": "549309297fcf1c846c4664116ee2dd555f372a5d237e338d30611e48e1460f36"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.OriginalHighReflectionDeleted",
+      "olean_sha256": "7306e88ff41023ab90aae2716b86094d9b037e3391cf21be5ea6ad29d6600654"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.OriginalHighReflectionOriginal",
+      "olean_sha256": "18a347befa6b93c5bf6ac0b9cfeae053a9b46c11f144621d6a0e7aa9d8222424"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.OriginalHighReflectionPower",
+      "olean_sha256": "83eec80076aaa7778243b9d9e4b6357570a743e37940772bbbd9ae17c7c0b339"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.OriginalHighReflectionSymmetric",
+      "olean_sha256": "420bb0ad364010f0a84dd615a7b04a7fd1061628bd91053af323c7dea1adc1e6"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.LiveClippingDefect",
+      "olean_sha256": "c06d5375910687b6a55524054a1cb6448a3eda7573bcd90860b5cc6a13a16d67"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.DeletedRobustGeometry",
+      "olean_sha256": "0a165b311ed781c57018178e264959181cf782b51ad89e9ab8101dcffe4f81b1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceRobustDeletedEnergy",
+      "olean_sha256": "b1426e7c9ad2893596f434c57c93a50283df8ee44d44436315d1f655ccbb9e31"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceRobustOriginal",
+      "olean_sha256": "a0828d7079c79c117eff4d3ab0d42bb18c27da973948ec77e2b3695069706f49"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceRobustPower",
+      "olean_sha256": "0faa11ecf3f408f44029d6fa418446a0bcd92453bab210364d7b49aa1516c14e"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceLivePower",
+      "olean_sha256": "1e93f80f74a781cf02334ddde2a5f3125b63b448d466b47c78ed594ae179ae87"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighSource",
+      "olean_sha256": "9c728a08a83656f183adadd06c2dd1732e5fa7dc80c79ac2043808e63816bea3"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighParameters",
+      "olean_sha256": "efc11b1473b28e6b953a69521ea5c95241e4be1eb99cb75cc4e03fe7ee6f29f4"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveBalancedAdmission",
+      "olean_sha256": "92044d905e5daeee9bab601ed5d385114522226488c35a104959b8aab237706b"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.NaturalLowPhysical",
+      "olean_sha256": "60ddd22a2079fc6c0042027c255ce3de9991c66754a78e9bb059a38cca06d6de"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.OriginalHighReflectionBounded",
+      "olean_sha256": "9610dd852d75d37d115d4d97db6e739f89168f8b7cb8251ce35fa25e030c2c42"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.OriginalHighReflectionSymmetricBounded",
+      "olean_sha256": "44f5a20253df4c6dd9e621e30ba535cc7d6b440b43ccfd6ea88476fbb86fc352"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighAssembly",
+      "olean_sha256": "c4c7fe9b0ba016d97122fc8540a7642d73ea4303e479e7d21fc6b9d7455bd731"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceRobustBounded",
+      "olean_sha256": "296acfd67d860bfdb1f898ea5f6ec7f4e114361a24899a70365411756787e8ff"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ReferenceLiveBounded",
+      "olean_sha256": "c96bcf2a547d979f04834adaaa0d208e5dd95f688ab939d1cbbef40300d0c7a7"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighSourceBounded",
+      "olean_sha256": "c8bf13b6f583afea354bf8d25eceea6c59942fcecd2127f96cba688282105126"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighAssemblyBounded",
+      "olean_sha256": "a5656aa3210431598217f167bb05b7538b1d7d763be6ce0cad660a02c7773023"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighBound",
+      "olean_sha256": "9bc5cb3ac93d911dbb020b27cdcfe9e6e1a146bd6d4b782530c1b4f5d152df23"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighSourceBound",
+      "olean_sha256": "c3c6bd2f867f9cc09d5237ca60ae768e9bf3dc1f99baa679bdd8ac4a382f857c"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.NaturalLowStage",
+      "olean_sha256": "db5c87db3d695375e9c05e7b79a3d290bcf63b2954ec8f68f375e04efa4f9dd5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.CappedLowStage",
+      "olean_sha256": "4ee3fad1829e1f9825a76439a5ac331587a247079c3ddf3aa78ac0228248158b"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.PositiveHighPhysical",
+      "olean_sha256": "9e917838bc2dcdcb0026aeb9e55b6197ecc54019dc52359dfae7afffa1d2cca1"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.NaturalHighStage",
+      "olean_sha256": "141bd5459353eaa39ed659c338b7f828b93256e9ef8a63df779d267faffb8451"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.ZeroGrowthPhysical",
+      "olean_sha256": "c6f127dff2327b01722cf869ad60994e6117844f20703a35a51def35214c0820"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.NaturalZeroStage",
+      "olean_sha256": "922347b84c50a6b406d6b9ea9148a77c1f6d39db0f7832e0e43c41a45302075c"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.CappedAnalyticSuccessor",
+      "olean_sha256": "c7db668ffe0c822a44370dadc4b70049a5eea5a247ce363c899e877127bf2395"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.CapacityExtension.Energy.CertifiedExistence",
+      "olean_sha256": "93ed57b0befa974e1fe196aeea0071e4346b4fac9fd2eb013f6b34567cfcce9b"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.MomentExtension.FinalAssemblyCertifiedMoments",
+      "olean_sha256": "dff2e8e81eb54bf6e6ee6c45d3eb57401d3288c6ea6067fc096d669f407284c5"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.RationalNonvanishing",
+      "olean_sha256": "51333723b2cac53f483ba252a07818aaf83e7fbee618fe31681b1f7bd9a48987"
+    },
+    {
+      "module": "OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary",
+      "olean_sha256": "b9e2325786b7174972326ad151de9a1d8018979c290070c39bfe47badbe761b1"
+    },
+    {
+      "module": "ComparatorChallenges.FrontierTightPublicBoundary",
+      "olean_sha256": "b5764c62d3c784d2e338bc30c79c29c7d8206b53d263cd65e2dc196d5208c954"
+    }
+  ]
+}

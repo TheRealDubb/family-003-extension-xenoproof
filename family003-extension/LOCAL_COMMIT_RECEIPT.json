@@ -1,0 +1,9 @@
+{
+  "base_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "local_commit": "b70e76fc4203c585973bdd6a1f0942273baa9e80",
+  "branch": "family-003-rational-bound",
+  "working_tree_clean": true,
+  "patch_sha256": "dca95c069b6b31ca32da4e7f807e9b3f745f2e746688eb8e18bed994452e3d7f",
+  "path_count": 193,
+  "published": false
+}

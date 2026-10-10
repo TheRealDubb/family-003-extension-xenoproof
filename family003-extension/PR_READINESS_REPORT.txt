@@ -1,0 +1,79 @@
+PR READINESS REPORT -- READY FOR HUMAN REVIEW
+Completed: 2026-10-08T23:25:09.147367+00:00
+
+Local branch: family-003-rational-bound
+Base commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+Local submission commit: b70e76fc4203c585973bdd6a1f0942273baa9e80
+Patch SHA-256: dca95c069b6b31ca32da4e7f807e9b3f745f2e746688eb8e18bed994452e3d7f
+
+RESULT AND SCOPE
+The strict boundary is 8749570194201/10000000000000 = 0.8749570194201,
+strengthening 7/8 = 0.875. The three statements retain the original Riemann
+zeta, Dirichlet L-function, and finite-order HeckeFamily.Character definitions
+and pole conventions. The Hecke family is over the Eisenstein field and
+includes cubic characters; it is not restricted to order-three characters.
+No boundary-line result or additional analytic-contract hypothesis is claimed.
+
+Public module: OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary
+Public namespace: BelowSevenEighthsTight.PublicResults
+The three nonvanishing entrypoints and two strict rational comparisons are
+listed in the independent comparator configuration.
+
+REQUIREMENT-BY-REQUIREMENT CHECK
+PASS: Complete public proof and all 189 new proof modules are included.
+      All new modules are reachable from the public entrypoint.
+PASS: The patch has exactly 193 intended repository paths; PR_FILE_LIST.txt
+      lists each one. No unrelated research, caches or binary tools appear.
+PASS: lean/docs/003.md states the improvement, definitions, poles, public
+      declarations, exact build command and verification limits.
+PASS: Precise documented command, from lean/:
+      lake build OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary ComparatorChallenges.FrontierTightPublicBoundary
+PASS: A fresh pinned Git tree accepted the literal documented apply commands.
+      Candidate proof and fixture artifacts were absent before its first
+      build. Independent original-project and dependency caches were used.
+PASS: Initial clean build attempt 2 exited zero. Final-patch
+      build attempt 3 exited zero. All 190 candidate/fixture
+      object hashes agree across these builds.
+PASS: Original and extended Family 003 results compile in one environment.
+PASS: Fresh exports from the test checkout passed statement comparison for
+      all five public declarations, axiom audit, full dependency replay in
+      an empty Lean kernel environment, and quotient postcheck.
+PASS: Only propext, Classical.choice and Quot.sound are permitted.
+      The solution source scan also found no admissions. Intentional fixture
+      holes belong exclusively to the separate statement fixture.
+PASS: Pins and native tool hashes match TOOLCHAIN_AUDIT.json. All 42 dependency
+      revisions and 23 official compatibility patches passed their audit.
+PASS: Exact certificate proofs are included as Lean source. Large export
+      streams and local build logs are excluded from the review package.
+PASS: All repository submission files passed the machine absolute-path scan.
+PASS: Git whitespace checks passed; the local submission branch is clean.
+PASS: The frozen baseline remains intact: 2769 files rehashed.
+      188 PR proof modules are byte-identical to the frozen version; one
+      trailing space was removed in LowWindowBound.lean. No proof term changed.
+
+CLEAN_BUILD_REPORTING_NOTE.json documents an output-only encoding error after
+the first successful build; the Lake command itself exited zero. The native
+build log and all object hashes were saved before that reporting failure.
+
+VERIFICATION LIMITS
+This is verified native Windows development mode. Linux Landrun/Landlock
+production sandbox verification has NOT been reproduced. The replay uses
+Lean's kernel, not an independently implemented kernel. The dependency and
+original-project caches were provisioned locally: this does not test a
+cache-free download/bootstrap on another machine. The native adapter/exporter
+were reused at checked pins and hashes; this run did not rebuild those tools.
+The upstream Comparator toolchain file names 4.34.0; the native development
+route explicitly selects Lean/Lake 4.34.1 to match the project.
+Formal type/axiom/kernel checks are distinct from an independent mathematical
+audit of the manuscripts and their correspondence to these definitions.
+
+EVIDENCE
+CLEAN_BUILD_ATTEMPT_*.json: exact commands, compiler hashes and object hashes.
+CLEAN_VERIFICATION_RECEIPT.json: source/object/export bindings and replay markers.
+COIMPORT_RECEIPT.json: original and new result compatibility.
+FINAL_PATCH_APPLICATION.json: final patch application and source equality.
+CLEAN_ENVIRONMENT_RECEIPT.json and TOOLCHAIN_AUDIT.json: dependencies and tools.
+STATIC_AND_FROZEN_AUDIT.json: final submission hashes and frozen baseline check.
+lean/docs/003-verification.json: compact in-repository verification evidence.
+
+No push, publication, GitHub PR or external contact was made.

@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-08T21:59:42.993788+00:00",
+  "base_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "original_tracked_tree_clean": true,
+  "lean_version": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "comparator_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+  "lean4export_commit": "076e8e57707e813375e8f9da8bf989799ace9680",
+  "tracked_comparator_source_changes": [
+    "lakefile.toml"
+  ],
+  "comparator_core_sources_unchanged": true,
+  "exporter_tracked_sources_unchanged": true,
+  "adapter_source_sha256": "96efdad0ad202c33a84724bbbc6a3aa887d67710d71ce7ef28a58fbaca4b901b",
+  "tool_binary_sha256": {
+    "lean": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+    "lean4export": "a1b7df7bda1ad687e0181d0886045bfe4d3eaa79f490cb9650028a95f3685262",
+    "offline-replay": "2b88802c3d35c852573e2bd61b4c8b6d49e658b43be72a889bba8498cdefabc2"
+  },
+  "upstream_comparator_toolchain": "leanprover/lean4:v4.34.0",
+  "development_toolchain_override": "Native Lean/Lake 4.34.1 selected through PATH.",
+  "linux_production_sandbox": "not reproduced"
+}

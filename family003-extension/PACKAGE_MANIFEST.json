@@ -1,0 +1,874 @@
+{
+  "local_commit": "b70e76fc4203c585973bdd6a1f0942273baa9e80",
+  "files": {
+    "CLEAN_BUILD_ATTEMPT_02.json": {
+      "sha256": "65036282fc4ae5ee896ac3978f870c0712e0766df9270434d6cf14a06978e930",
+      "bytes": 35737
+    },
+    "CLEAN_BUILD_ATTEMPT_03.json": {
+      "sha256": "091794416268b2250f42e7a0b7ac68558d9e49a4741fca1670391a1c6ead8d24",
+      "bytes": 35737
+    },
+    "CLEAN_BUILD_REPORTING_NOTE.json": {
+      "sha256": "91927ae939aebe5ff665801c8b5b9dabec90c7c138d72d1e3af151978ba357ac",
+      "bytes": 683
+    },
+    "CLEAN_ENVIRONMENT_RECEIPT.json": {
+      "sha256": "20419c65f57e186c1b318480a2679ac5524bc72b46f8715f55c07448dc839275",
+      "bytes": 8842
+    },
+    "CLEAN_SETUP_RECEIPT.json": {
+      "sha256": "c8113386fd2404dab3865bf2c0bdf2175117b4a2d94cc9f73083fdafb7aa4fde",
+      "bytes": 648
+    },
+    "CLEAN_VERIFICATION_RECEIPT.json": {
+      "sha256": "252a5ff881618e1ea72d795d929e72e5dcde46f8fb0711110a492c0e30dcf198",
+      "bytes": 2628
+    },
+    "COIMPORT_RECEIPT.json": {
+      "sha256": "9663ae49771490f228eca45d6cb667d7e14392732a738434a6adffa7e8d0a062",
+      "bytes": 1529
+    },
+    "DOCUMENTED_APPLY_RECEIPT.json": {
+      "sha256": "30e2441acdc0adc6a67a8b74a204d3b2ecfbe277035a4474c77c568094646414",
+      "bytes": 289
+    },
+    "DOCUMENTED_COMMAND.json": {
+      "sha256": "90cd9a4df03e7acc32979eb5e49bd4112542d33bab09e75e2df14e3dd984fa59",
+      "bytes": 330
+    },
+    "FINAL_PATCH_APPLICATION.json": {
+      "sha256": "71c2766266ff61a168919b14ccc7eb2d281a4b420d2a593773a47d99596e4a48",
+      "bytes": 504
+    },
+    "IMPORT_CLOSURE.json": {
+      "sha256": "207049e5b9b9ac59160fe3df5630d56b028b348529538653ea58c5300ad901ea",
+      "bytes": 154
+    },
+    "LOCAL_COMMIT_RECEIPT.json": {
+      "sha256": "8f212035ef04516beb0c48d7fc9f3343ebe2e4d72f6d72ce77d10573ac0b86a3",
+      "bytes": 326
+    },
+    "PR_DESCRIPTION.md": {
+      "sha256": "3253891d53c6e2146ccf766786387674d0cbfcd0c7b6f2f80ad94327664d1593",
+      "bytes": 3750
+    },
+    "PR_FILE_LIST.txt": {
+      "sha256": "2e334550eb6e19e62dd60350a7b26b474b41213c6fe523157c744a09aafd8fb0",
+      "bytes": 14309
+    },
+    "PR_READINESS_REPORT.txt": {
+      "sha256": "c248bd51ab01f153cfb866d97ac3a51bbdb0f8009258273dfd6016fcb1f3765a",
+      "bytes": 4853
+    },
+    "REPRO.md": {
+      "sha256": "3a3d3d9cfe56a7e444e336e713e4ff2e81695b33ce7527a84cc62695cc357c1b",
+      "bytes": 3732
+    },
+    "SOURCE_PRESERVATION.json": {
+      "sha256": "05d51606f7ad0966f7aa368353c20a0ab9c78547266fdbb0e7a9f4d11b54de46",
+      "bytes": 44187
+    },
+    "STATIC_AND_FROZEN_AUDIT.json": {
+      "sha256": "0d37e6586a76a1d6cead5f9e3e66caca24867573251f135dde5f28d6ec45c0e2",
+      "bytes": 29433
+    },
+    "TOOLCHAIN_AUDIT.json": {
+      "sha256": "0427f0b6bb1ff5ee12fdf7a53da4bea189478a212aab5b90010c1c483201f4f3",
+      "bytes": 1152
+    },
+    "family-003-rational-bound.patch": {
+      "sha256": "dca95c069b6b31ca32da4e7f807e9b3f745f2e746688eb8e18bed994452e3d7f",
+      "bytes": 1426765
+    },
+    "submission/lean/ComparatorChallenges/FrontierTightPublicBoundary.json": {
+      "sha256": "06625b36203ac284e2da8a778ef0a561312df6cdee82ad0af6395ac6968ff3e2",
+      "bytes": 920
+    },
+    "submission/lean/ComparatorChallenges/FrontierTightPublicBoundary.lean": {
+      "sha256": "cae10c9b712ead12fb64402797d2416b79537926904d17917b04cf0ec12f4640",
+      "bytes": 1337
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AnalyticBridge.lean": {
+      "sha256": "5fe53b82bf115aaa0c7952cb55f3619516f7aa0f49f6766aed6d0e62325fa5a1",
+      "bytes": 7053
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AssemblyExtension/AnalyticBudgets.lean": {
+      "sha256": "bdd201a47e98c36e40a55e515e3d09c7f8c67470106499ce82941f55d4e3a235",
+      "bytes": 2651
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AssemblyExtension/CommonProbeFromMoments.lean": {
+      "sha256": "61ece7e2defc618e9deda280fb46d068047b43ffc3755267b477658870de0ed7",
+      "bytes": 2486
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AssemblyExtension/FinalAssemblyFixedHigh.lean": {
+      "sha256": "e18ad080c7695f049ba12333a331c7d4ef44fcaea4f822090c35f9ef3a835488",
+      "bytes": 6464
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AssemblyExtension/FinalAssemblyHigh.lean": {
+      "sha256": "9d21e030bdac0b150ac8658b288a8adbc83042f43b0a8e51902452279305e55b",
+      "bytes": 10802
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AssemblyExtension/NonfloorTransport.lean": {
+      "sha256": "afc3566e7087e29460e478dbf331cd922701c505c7889c4f9d0762db12049c5d",
+      "bytes": 9489
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AssemblyExtension/PublicBoundary.lean": {
+      "sha256": "007bcf8d9e617dfa1d5d8db4f80bf5f86ee4ce6a4193da912f29529b8cf9317a",
+      "bytes": 1790
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/AssemblyExtension/RationalNonvanishing.lean": {
+      "sha256": "9604fa1e219fa3e6820f1141718f8616eb990438810d256959fd90b251200719",
+      "bytes": 2690
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityBounds.lean": {
+      "sha256": "06bed75172dcf749502ba3e4198d03445fc81ff39498ce21cc6852a4151431b3",
+      "bytes": 3609
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/CappedAnalyticSuccessor.lean": {
+      "sha256": "9983d3d56a914e0b4ef1debaed0dc0d31f216b8a877d70e5d026a2dfb8deae42",
+      "bytes": 10206
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/CappedLowStage.lean": {
+      "sha256": "79c8d659519e6eb050fa27cc8055efc438274b45633934aaf351c75a188c6de9",
+      "bytes": 6200
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/CertifiedExistence.lean": {
+      "sha256": "025a9b5d8401d4123a04c0d634f28712254a47f1f45873cbca920bee628a6618",
+      "bytes": 3090
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/DeletedRobustGeometry.lean": {
+      "sha256": "fa76b0dfca33d914941f2ca2c1527c62ee7b6a0b4a1554ef6fb5322440809e88",
+      "bytes": 4898
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/FirstSourceParameters.lean": {
+      "sha256": "69678bef4169fda51bc6de375c0790452fce9ede985ea8dddca41d6b738a3ae1",
+      "bytes": 4064
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/LiveClippingDefect.lean": {
+      "sha256": "c58382a31e429c16970c7a68bd6a2771a49acd1ead969e52f135b5ecfe37469e",
+      "bytes": 8438
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/NaturalHighStage.lean": {
+      "sha256": "928dfae84b92d72111f9d381760b48d918a837de9eed25c0d8bddc9f9afdc9dd",
+      "bytes": 5975
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/NaturalLowPhysical.lean": {
+      "sha256": "1f6bd95991aeda18850794535d14688defaed45f282d30ad7ab8e637c4261df6",
+      "bytes": 8715
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/NaturalLowStage.lean": {
+      "sha256": "b50a78e6b79350510fea01d20b53a39a39543445a981b319ed6871e91d889e12",
+      "bytes": 8464
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/NaturalZeroStage.lean": {
+      "sha256": "60127ee5996cbbffdac38f07153c15d3b5d7021652e5d27254e057cc7d374c02",
+      "bytes": 8238
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/OriginalHighReflectionBounded.lean": {
+      "sha256": "6d7bfd945ad6512e5e03b35af6b7c2a320e839a0d7cd4213330941a5783fdf10",
+      "bytes": 7897
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/OriginalHighReflectionDeleted.lean": {
+      "sha256": "ef9519477e77a8fb5ccb24ba848a10af40eebe3d2b38bf0f36aaf8b7fb52c66a",
+      "bytes": 8272
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/OriginalHighReflectionGeometry.lean": {
+      "sha256": "3964a563cfb303822fd6d3c614a2d115fe193cdb2ebf547b02b9bc8bd6f61119",
+      "bytes": 5633
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/OriginalHighReflectionOriginal.lean": {
+      "sha256": "2961e5757f128df5891df4d7fe131ca33610201ace022a6cf5a038ebd3a2cbb3",
+      "bytes": 7064
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/OriginalHighReflectionPower.lean": {
+      "sha256": "fb9574044a787e7212b50db0938150a5acb2b88a4bf4aea4f3e5e0d9a1b64e0d",
+      "bytes": 7759
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/OriginalHighReflectionSymmetric.lean": {
+      "sha256": "4880ab8ab53283f787dcf86a259007692b03969ee515fc8e90a381eaaad75f5c",
+      "bytes": 4526
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/OriginalHighReflectionSymmetricBounded.lean": {
+      "sha256": "d965ec5579684b78f11dde4d9a87db4e14c97cdec5f5b8a035d0e3dc525cf645",
+      "bytes": 4779
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveBalancedAdmission.lean": {
+      "sha256": "145faa2a5c56920ae957b6accd4c4fdd843522621b1f3efe2541ad3be002e954",
+      "bytes": 5231
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighAssembly.lean": {
+      "sha256": "32045154b8d3aa0c29d82070813e9ecafd7cba0f653f3a705fa9419a1d4b429d",
+      "bytes": 6879
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighAssemblyBounded.lean": {
+      "sha256": "8ddedefee4a304c3ca631d267cafdcc2fc01f9b5919109ae0b7c3863d408847c",
+      "bytes": 7368
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighBound.lean": {
+      "sha256": "9f48223bc87496b973edb0f8d9bb1c53c97f23a2e29de7ce895d766d17889502",
+      "bytes": 11364
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighParameters.lean": {
+      "sha256": "291b1cdf669b14135136ba370f1686450f0b010175cd4fe846cd87def6f8720a",
+      "bytes": 3062
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighPhysical.lean": {
+      "sha256": "edb4b8f26c327853776e677dea77bca9a4dc54fbe9ade15c07e81a9a6b6b78a7",
+      "bytes": 7981
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighSource.lean": {
+      "sha256": "ab20f157b210d55d48d2ef484f1e7a4b216f464da2e60e1e17aee3ebe2aff702",
+      "bytes": 8699
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighSourceBound.lean": {
+      "sha256": "b006c99413c59ac30a1b25d6875adb9476d2ed31ad3d27b408df0ad29e696b96",
+      "bytes": 5670
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/PositiveHighSourceBounded.lean": {
+      "sha256": "451fc2b182056940fcdd9b2e4480e21be772edebc03ae5e193c679acb1b29bb4",
+      "bytes": 7589
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceDeletionCapacity.lean": {
+      "sha256": "836296ee2c9d559b938c7ea78d11a09d1d8fb01b7f387c014c8132e92c035e6a",
+      "bytes": 4053
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceDeletionClipped.lean": {
+      "sha256": "24a3e15ff434a30c258868cdd91045f1572c10a8c16e870a1828eb9c33d05246",
+      "bytes": 2544
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceDivisors.lean": {
+      "sha256": "66f02fc096645aa639ebe9819f8b9fd7cd882d07bc2f31275e15307279c92054",
+      "bytes": 2165
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceLiveBounded.lean": {
+      "sha256": "2413516cf7c7acf0db669356aa67187ad0af5bdc325dbfbc70e4039f3c6eb86b",
+      "bytes": 5349
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceLivePower.lean": {
+      "sha256": "6ca48ac62bd9ac8db4d08f85dc439ae10514b65572c8bf2303b0d2667e4e6aed",
+      "bytes": 5270
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceLowBranchGeometry.lean": {
+      "sha256": "02bb071b033dcfd7ca78ee3ec23e52fe1e50b823ec6f89d39b2eb94fc4bcdfda",
+      "bytes": 3262
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceLowDeletedGeometry.lean": {
+      "sha256": "8d5527554bf67c0454f7099ed4708ccda26e071bcc0893cf206af25082904a2a",
+      "bytes": 4119
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceLowWindow.lean": {
+      "sha256": "5464b9499567a87e3e1cc4d84b89d5d9ca29c0477bfa0d8ff782774584c09170",
+      "bytes": 2320
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceRobustBounded.lean": {
+      "sha256": "2f0a22e585e2f62dd17927609a00454652b57505eccedf9d9f0fbceb11b264f3",
+      "bytes": 8103
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceRobustDeletedEnergy.lean": {
+      "sha256": "c88097fc5a0e93c7314384d86338b7b927a67c8fa84c323ac6afc30169376c9e",
+      "bytes": 8346
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceRobustOriginal.lean": {
+      "sha256": "7b5f5623a78f9e1cba5a507bba59987943b32ff8db61f3a20f94ec83acdda7a4",
+      "bytes": 7252
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceRobustPower.lean": {
+      "sha256": "d479738a1fe245ab1c57a6072bde7d3119b8233b8c4ef979839b573b4a0d0415",
+      "bytes": 7965
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ReferenceState.lean": {
+      "sha256": "0088059b1e119163627ade1a95414f89959b97c9a06d61a7458996d0a1aa814f",
+      "bytes": 2798
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CapacityExtension/Energy/ZeroGrowthPhysical.lean": {
+      "sha256": "1692179b25fc65622c47055162fc07634169d78ff24e5cea59e1e019429c8896",
+      "bytes": 8584
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CubicCertificate.lean": {
+      "sha256": "6e126ef7bddc95dd8eefcade087fb884df549fbb62f8282cedbfa17fe7b6c63e",
+      "bytes": 34731
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CubicEndpoint.lean": {
+      "sha256": "453161ce9ff400497a0918c0f76529495451eae5e9d2f6e2a806cad0b53b4048",
+      "bytes": 9093
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CubicLowSourceGeometry.lean": {
+      "sha256": "4916c12ea3e7c00a20ed2de0dd23813bda209daba7777def9ff49e0d1926f28e",
+      "bytes": 2270
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/CubicRoot.lean": {
+      "sha256": "a0f7a40e994e484310041b8685b05628ac9cca37b8516e1050b393d21b57b779",
+      "bytes": 3408
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/CentralClassArithmetic.lean": {
+      "sha256": "b151b600c0891b9d30e2602658b3acffe2634ac5ec8fde49247d1aef82489eae",
+      "bytes": 6979
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/DetectorSlotSupply.lean": {
+      "sha256": "5d1d38eaec50b1e5b529b4f3364f6e9bd0aef3871b88cfdd88c65f780a6da5c9",
+      "bytes": 1437
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/FinalAssemblyArithmetic.lean": {
+      "sha256": "8de5ad093758fdcd425b38770f0a36352499ab1caa775944701c9f3153ba19a9",
+      "bytes": 7740
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/FinalAssemblyClass.lean": {
+      "sha256": "db23c194a3c5325fa3b7cb2b8d73981c268afa6429f4c851116167f7a4f337a7",
+      "bytes": 9062
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/FinalAssemblyCollected.lean": {
+      "sha256": "42c6a4099ef3efb4c5654dd9e1e43993d25f41e4bdfd7ecde7340689bdbd3c2c",
+      "bytes": 12513
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/FinalAssemblyIntegral.lean": {
+      "sha256": "76e0c6ad21b9ec6aa62c687b73a863ee482ed0d9ca2c8d7c4ee6e58b9d323eb6",
+      "bytes": 7055
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/FinalAssemblyNormalized.lean": {
+      "sha256": "43290a378b79251ae2aeae2c9dbe845948bcf516518b1a57633025afb6c9dc2b",
+      "bytes": 7596
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/FinalAssemblySourceCount.lean": {
+      "sha256": "2c171c6be74b7aa5897cd3b97cc0daaf49f827ff0c4bc46d777caba3d341da99",
+      "bytes": 10545
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/SourceAmplitudeClasses.lean": {
+      "sha256": "7d222881bf7ed44d68eb833b9ed7405aea7a0de0164816f443d40d859fbbdfc6",
+      "bytes": 5326
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/DetectorExtension/SourceBatch.lean": {
+      "sha256": "a6a26afe324860e40c7ef76651b4f0cf4e0f6d438df35b3820bda932a9b0a326",
+      "bytes": 4033
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedCountFromMoments.lean": {
+      "sha256": "7a77a7eb91bd8744a248eb7b6f57497050af6d97936e479b2a70f15b7517c06a",
+      "bytes": 6295
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedDetectorBranchBudget.lean": {
+      "sha256": "ddde6eed49d3b14a3fe802093cf5d935b009ff4b921e6d6d6718771633d9c2c8",
+      "bytes": 1936
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedEulerRegion.lean": {
+      "sha256": "7479f6fd1b76eea9f1ed7143676b67e1489f0161e30b55c14260294ee2cc7663",
+      "bytes": 6556
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedFixedAmplitudeCount.lean": {
+      "sha256": "2529c8832ce88c4bc8d5c75d2800d9e2f39f3c5b730133f3595056b87aa51922",
+      "bytes": 4950
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedGlobalCorrection.lean": {
+      "sha256": "ab42cca1a3fc5d217242d4fa04c9e88b6bf9a8d02046946dcf0c9c58a2bfc60a",
+      "bytes": 7799
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedRawFiberBranches.lean": {
+      "sha256": "7952dd552ba40b01e6ec26e97b29334f40a0e9c86964c9c0f3bd1731606462dd",
+      "bytes": 3479
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedReflectionGeometry.lean": {
+      "sha256": "c14d173c2fd63e0439b8f51e311f1dca11b4f076dac8f054561608de1756e942",
+      "bytes": 5882
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedRowCountBranches.lean": {
+      "sha256": "dc81405ce83047ddf8d2c310235ea59460fc06afd446de5aec886d2de70a5191",
+      "bytes": 7029
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedRowCountEnvelope.lean": {
+      "sha256": "0cd246879f434d5421417c2f6b368f0f45fc2092275fb8a20da616912832d04e",
+      "bytes": 4478
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedRowCountGeometry.lean": {
+      "sha256": "97563f1767294670c15ea4f6b43721f0689d820bf8a0aac153ccc3b4aac2d7ed",
+      "bytes": 5591
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedSignalBounds.lean": {
+      "sha256": "d975c0a53030354b1a11d7a44113544a40ed0e0f8dcdf9e72d2d0a89c0b03935",
+      "bytes": 7080
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/ExtendedSlotEstimates.lean": {
+      "sha256": "9c2e92abfffca81d85e6692d2df4cde73654037b6f866ea32001ca3d0434ad90",
+      "bytes": 29323
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/FloorExtension/CubeFloorArithmetic.lean": {
+      "sha256": "97266b1f8835e7c1e16491d25f8a540c6c63441d4700055e4652e624c43eebf2",
+      "bytes": 7354
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/FloorExtension/CubeFloorCollected.lean": {
+      "sha256": "5968568d748af21486452948126e97a31331a134d91f478ce4a2004f87a38949",
+      "bytes": 7431
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/FloorExtension/CubeFloorGlobal.lean": {
+      "sha256": "5f97b30d8c723be28dcd02dd995d7f5d89f082316ceaebdd744a9763d43d6e9e",
+      "bytes": 6912
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/FloorExtension/CubeFloorGlobalIntegral.lean": {
+      "sha256": "014d873d8852f5c93391786a183ae4500b7e11a8c4b39d73f4e9075fb2ab2d41",
+      "bytes": 6106
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/FloorExtension/CubeFloorNormalized.lean": {
+      "sha256": "4084d0a0f320ac98aec221d812b18ac62ae858d74849548452268127990a668c",
+      "bytes": 6221
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/FloorExtension/CubeFloorSaving.lean": {
+      "sha256": "20d14d9d23373bcde3c500c5fa0bbb875965c990ce8f0e02ef652918ef35d513",
+      "bytes": 5400
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/GeometryObstruction.lean": {
+      "sha256": "05a63adbd1684cbca6c88892dfc6bed78164a80b1304cb56ea8ce6895b04c230",
+      "bytes": 1762
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/FinalAssemblySource.lean": {
+      "sha256": "04f165422a803b2eff8929d6161e7414b99b3185c40e6fa2bc1246cd5d947735",
+      "bytes": 3408
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowBranchSum.lean": {
+      "sha256": "6ae94a40c584309370258c3f90933b932cc29dd08cd831981d6b8fa5f1d0862d",
+      "bytes": 5232
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowCaps.lean": {
+      "sha256": "79fe8d12597b6d24fbe5b589133fa6ec9c71571e57ed16461894c8b88ad903b1",
+      "bytes": 2937
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowCentralTuple.lean": {
+      "sha256": "32d82a7234f1475d1dc263cf6f72345fde824a58b8172a3286c305f0a2e055a6",
+      "bytes": 9087
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowChoiceEnergy.lean": {
+      "sha256": "a14ff689c9c77a7ec0a652d8c2836b8ba2bd5b87e578162f340fcddc89bcb0ea",
+      "bytes": 11093
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowCommonBound.lean": {
+      "sha256": "cc0ac466c3348cb9c5c6f3ddfb32a07f648d25b6289bc95042f6ffb2fe82ca4f",
+      "bytes": 6413
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowCompletedFiber.lean": {
+      "sha256": "c46f5be766914b1826de383fe2f9f62e8a0d2a5373418bea3599118c01c26736",
+      "bytes": 10260
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowCompletedRows.lean": {
+      "sha256": "8a69fd45adc1558dbed590dc79540ee941b6f8e592babf114b306bb2088062d9",
+      "bytes": 5687
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowDyads.lean": {
+      "sha256": "f3af42fa374a3c557d0c92b979d49bc6dce506986a1e83f0ac89ec39fe18e6bf",
+      "bytes": 9412
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowExponent.lean": {
+      "sha256": "47223a25b4ca99a7ef1b0ec682967cd7ba0f73c887da88b66be3c1d0d4139998",
+      "bytes": 6297
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowFixedMember.lean": {
+      "sha256": "a8e48cd6cf637efc7bd906853deacba02d75cd962c49735c877b4ec54b979cd6",
+      "bytes": 9308
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowFrozenEnergy.lean": {
+      "sha256": "c695cba330c0bdd1937c0c5744db742b37764316424b8305e6a9b9e700c77c30",
+      "bytes": 9745
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowFull.lean": {
+      "sha256": "12fee02a332f8a454d48dbf78aef70d688e624f80893bd736fe122a36cf9a033",
+      "bytes": 8936
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowFullBudget.lean": {
+      "sha256": "e18f50ad7d3c85b8b5af781586bbe6a73756060e4297163ecf930429da7d3a0f",
+      "bytes": 7716
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowGaussianCentral.lean": {
+      "sha256": "3129d512da2b061aa5f0a975a1a5b5735087ffc70ba3b04347f98c3c61fe1a9d",
+      "bytes": 4813
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowGaussianDyad.lean": {
+      "sha256": "1b809699212a55a4e2e2f90f52e27bc6ec4cbe64d48a4cd51b70cdd81cb39de1",
+      "bytes": 2956
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowGaussianRemote.lean": {
+      "sha256": "ea8afe938c042f8325993613270b952bffb0378e9635ea8fb1347c442ed1407c",
+      "bytes": 7284
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowGaussianSum.lean": {
+      "sha256": "d1239938e9ebd6b569554f9945e512f61885cb4383e473cfefe9eaaaf4edafb2",
+      "bytes": 3500
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowGlobalBudget.lean": {
+      "sha256": "181779934e38dd06ad33a5879686b7aeaf508c81885d4d58dc9ab5b074fa04d3",
+      "bytes": 7288
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowInactiveEnergy.lean": {
+      "sha256": "1e24febdad27dd009fc634c20f3e51c60ae944b8893a432fe2dcf4a1fd4f01f1",
+      "bytes": 8029
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowMemberBudget.lean": {
+      "sha256": "6ae56eeab46de4dd4ecd38aa23862f54ec37973e70962573043ced7c3d5fa43f",
+      "bytes": 6586
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowMemberGeometry.lean": {
+      "sha256": "7d3306bb4df6b3a0d28110af197560eb5fd5fb19df3045c9159d86ffbb11bc14",
+      "bytes": 7599
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowNominalEnergy.lean": {
+      "sha256": "b63f78d52307ab4c471583d421cab5b14ffcd28b3b134e1421ba8bd7755dd74a",
+      "bytes": 3112
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowNormalized.lean": {
+      "sha256": "dbf6f2c770e1d42c194973ba7ad7cc59104cfa0367a029abc8304984cc501d71",
+      "bytes": 4612
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowOriginalEnergy.lean": {
+      "sha256": "537c3bdbaba755289bb30e0bdaa42bd3b678e87a2f8b6ccca3a4f573d9543536",
+      "bytes": 4814
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowPhysicalInverseBound.lean": {
+      "sha256": "1874db94f3d7ba4d2f68c1c5af595f35bf417ee02cca90e6250791d39f1abdb2",
+      "bytes": 6795
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowRemoteMass.lean": {
+      "sha256": "d8ee094ac5a6a03d9c2ffba3bad7c34a198fc630a0152c13f3556e5cb37acc99",
+      "bytes": 4826
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowRetained.lean": {
+      "sha256": "0dab5b1787086ebf26a476f3b4489ebc906750acdf4a35875d97d662e68e5433",
+      "bytes": 6216
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowRetainedBudget.lean": {
+      "sha256": "5c623e7e709bff875fbbb2438a2aa3a9e654d4b59f45fe0cd589417c90cff7a4",
+      "bytes": 6086
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowSector.lean": {
+      "sha256": "847ce9892d6ba092dd54fcbb7ac4ee4d77475d20cf539c37139d19f14baf9236",
+      "bytes": 7689
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowSelectedBound.lean": {
+      "sha256": "d30adc09fe2d649744205d2d7e7bce204100a8c42c2c70db729d10f0513934df",
+      "bytes": 6376
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/LowEnergyExtension/LowWindowBound.lean": {
+      "sha256": "fa4dd3de1d5a68f1e32b52a96eef76b5927544d3f811ab8d0e1720221a63b381",
+      "bytes": 3692
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorEnergyInitialState.lean": {
+      "sha256": "e1ca8a5fe3950c7234be48d5418976d398be139bc5dc7daf89dd9d9433cb84d1",
+      "bytes": 5557
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorInverseFields.lean": {
+      "sha256": "3c27d98b84dfc033b742453c8c72b567f1ab458b91adc9baf340652612eed4c3",
+      "bytes": 5026
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorInverseMarkedField.lean": {
+      "sha256": "5511b6dc8e8ea2161ba3ed18aa0242aa235ffedbe338d8ce7d4b9ebdcd85ac18",
+      "bytes": 6413
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorInverseRawField.lean": {
+      "sha256": "6d6a4e95cd24f5bfea2837d9fe30789f792d36d0ab31340ffdb5095fd4a79de3",
+      "bytes": 4655
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorMomentPrimeGeometry.lean": {
+      "sha256": "f8b4c182438ea298fe6a5d060a732a75a4eb8209dda6de84ec3d8b340f632fc3",
+      "bytes": 10569
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainCapacity.lean": {
+      "sha256": "8e5454332bb5a3c8e91455862ef37cb9453770f77113b6768ea8ded9c8dfcf26",
+      "bytes": 1871
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainExceptional.lean": {
+      "sha256": "8c120bc8bca7a2ee3e44db739a9c43a1ceb875a52e90f8668e5bf86b4ff5f802",
+      "bytes": 7322
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainMarkedFineField.lean": {
+      "sha256": "c0a846b450dc3dfb0f75a2d47d5a9bec5082b8a8976a83b486a8bf767ff01b5a",
+      "bytes": 8677
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainMarkedState.lean": {
+      "sha256": "304dae219e174e2fbae6ae4b6bfa902cf136070bd2fd3da1be91f8cd2818cc1a",
+      "bytes": 9531
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainMomentParameters.lean": {
+      "sha256": "d87993c7fe0796556ede0a78513f63dbdb393ba5208e09fa19c0873b2d3d445e",
+      "bytes": 9651
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainSlotProfile.lean": {
+      "sha256": "c9e86d597a0e08528cfb0a0bc95bc4d7d7f92564aa065caa9bed15d1c32ec792",
+      "bytes": 1328
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainSourceAllowance.lean": {
+      "sha256": "9f75295f732421e2b35ac21df856f38b22691d153d4ce4229d9aefa39ff1ce87",
+      "bytes": 1963
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainUnmarkedField.lean": {
+      "sha256": "e974a04d8e5d6e6e61b71256f8aad6fae928d3863451f8530c0daa464d29e2b9",
+      "bytes": 3393
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/DetectorPlainUnmarkedRestrictedField.lean": {
+      "sha256": "22f8b0313d86d8df44c4d3289698f166e08266eac7793cf34a4700e6d154c118",
+      "bytes": 8416
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/FinalAssemblyCertifiedMoments.lean": {
+      "sha256": "23e527b101c38eb6b941b034d76ce1e00caa2acc7fcc753475087d17e95dccf5",
+      "bytes": 10804
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/InverseMarkedReferenceDeletedEnergy.lean": {
+      "sha256": "40a56e0dab5944745bd397513d4bc0246aea1df8a70655dd8d747dd02bd06518",
+      "bytes": 4849
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/InverseMarkedReferenceFiberEnergy.lean": {
+      "sha256": "df3553608b7f7dd4000c94c4bcb6740435a47cfac3f206cf954898c7c3676959",
+      "bytes": 7221
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/InverseMarkedReferencePrimeGates.lean": {
+      "sha256": "de6b2df1193fafe2166f3f41441797b739c3723224743994f4410a9986c5940b",
+      "bytes": 2571
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/NaturalFixedRaySourceFixedIdeal.lean": {
+      "sha256": "d976f6805ae68a0879e8ad1a61e3beb6809c1fc4608db4a7fc892be8fa957351",
+      "bytes": 4192
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/NaturalFixedRaySourceFreeExceptional.lean": {
+      "sha256": "391b7dce1c148732493fbbcfabe1d90106a350f5500516d53e400d1d3bc6f157",
+      "bytes": 4597
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/RetunedSourceMomentInput.lean": {
+      "sha256": "5d092b6a37854fcdb5b26adb66fe6378864cb6d748dbb585a60909d7004c2678",
+      "bytes": 4726
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/MomentExtension/RetunedSourceMoments.lean": {
+      "sha256": "753cc9cc5a022a22c238d61b7ad49b8e53de112fd9844c822194d1ccea15a5e5",
+      "bytes": 2896
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/FiniteProductBounds.lean": {
+      "sha256": "76d4cba5cd0b6a37eec28b2adfb932dfe192aac459ec5bab45c3d1b72fa490c7",
+      "bytes": 39952
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/FiniteProductX.lean": {
+      "sha256": "22a57d6447af7570bfe7647ce64d6db13b9759ee239720a4ced1af5eca21cdee",
+      "bytes": 12593
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/PrincipalContours.lean": {
+      "sha256": "d1dfa6c0e15f00970a2c0d25e4ec0d12c93de67f2822e65fa5a8c676e64e35e2",
+      "bytes": 54854
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/PrincipalNormalized.lean": {
+      "sha256": "94bc09bec8fd22f293d069faf0fe519739f45261e742eb7c8bc60d04e243b06d",
+      "bytes": 6758
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/PrincipalPhysicalOrdered.lean": {
+      "sha256": "7c387e73101a0f4440fac68c27f5658c990e21b22b3140c331d96ce20fde1430",
+      "bytes": 2643
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/PrincipalPhysicalRemainder.lean": {
+      "sha256": "048e04dd93518dbdb67fa48a6005e4046213acde3df542abe8eddab8f72c0838",
+      "bytes": 4400
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/PrincipalRemainderBounds.lean": {
+      "sha256": "8e780d49029d9056ea38535695cd1cf569be2fd45a44950bbdd5d9e40484b847",
+      "bytes": 40416
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/PrincipalTransport.lean": {
+      "sha256": "a7644a733d34ee3192d03943f8830ed4be0905dc7bd4dd6448be7d5c52090724",
+      "bytes": 31503
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/PrincipalRegionExtension/RayPoolThresholds.lean": {
+      "sha256": "732c04477b0446b8d38cf7144fa06c361902e1bd8cec92f6ed0fe8e77984ac45",
+      "bytes": 2299
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RationalCertificate.lean": {
+      "sha256": "dac626096f37ec90f91b3b165aad5f5b5c1632285f6b2222df444de36b9a0af6",
+      "bytes": 11162
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RationalEndpointConnection.lean": {
+      "sha256": "7e3c6d59f5bd8d222c44ae9e6fd885abb508d7e778f8bb715e924dd9fb281d43",
+      "bytes": 4705
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RationalRowCountConnection.lean": {
+      "sha256": "cb4105b7d13c3cf3a13332597a99655e3088e83cf3c29a1e220fb70ee1007b48",
+      "bytes": 2172
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedActualResidue.lean": {
+      "sha256": "ab1bc2a5f36128f128414db27231a9bc5e49cbaac715c2ebbdc6fb2e8a453291",
+      "bytes": 9123
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedAdaptiveCount.lean": {
+      "sha256": "aaacd2fad6847e2a292f0c53a236062154baac94357e05e76644e5f5cc327fc0",
+      "bytes": 5536
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedAdaptiveCutoff.lean": {
+      "sha256": "14a5a659c102f864f6e645d60040c478205a5a353d5a3823df53bef8ec32e51f",
+      "bytes": 4495
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedAuxiliaryMargins.lean": {
+      "sha256": "1a04b2aa7a039459c32970b1ae12c43b7ab27ab34a0ed98731e324eba18da13e",
+      "bytes": 2061
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedCentralExponent.lean": {
+      "sha256": "db03314325bcdf09b92a15b4c5ff9bd3ec199107dd0b246ed9d0a7c9da872e8c",
+      "bytes": 5130
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedCentralSaving.lean": {
+      "sha256": "5463b260a61d77f72e7689dc6c9ce3a27da519dbbb14d14e431b87f6bae1e45a",
+      "bytes": 5227
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedCountParameters.lean": {
+      "sha256": "1a83a55272825002bec25c6a06d48065428714d45fb3f9498c2bfa4291db7272",
+      "bytes": 3696
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedCubeSlotExponent.lean": {
+      "sha256": "a00c443980ffc6ad9c58ee8536d8a929669c29b40a51a264b03b337396e3325c",
+      "bytes": 1792
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedHighData.lean": {
+      "sha256": "ba101abd32f2bfe950565445b10c12962d7ff75940fca90c429898b1fdb27e53",
+      "bytes": 5999
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedHighDataFine.lean": {
+      "sha256": "10ac17a3dfb0e95c1e0916010dadb29cc74d89d939811589addb5ad45153603c",
+      "bytes": 5860
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedLowInverseNormalize.lean": {
+      "sha256": "8a134d3a5f69bd38059fc95b168121d21e0aabefab4e71ed198bacdf7d72c6ac",
+      "bytes": 3070
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedLowNominalGeometry.lean": {
+      "sha256": "c56183e34a73811282bed91c78892ea6227353642fc26a5406100fa5947629ef",
+      "bytes": 2164
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedLowReflectionGeometry.lean": {
+      "sha256": "d1cb4a4e3e78e990c3876a7a1b717c26f0e76c83c187bef6d3e8e99cab9688f7",
+      "bytes": 2807
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedLowSlotScales.lean": {
+      "sha256": "fdfbc180ba189a621e4da344067aa869df4cba45fd911858b578a37aa888469b",
+      "bytes": 2897
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedLowSourceScales.lean": {
+      "sha256": "b9903153e0f83c483aa4fe1de90e219d4c7b93ec088156ba9d7ab181a503ca7a",
+      "bytes": 6304
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedPrincipalComparison.lean": {
+      "sha256": "fe71561b80328000bc3d0d20d15532dd498a172974fe69e8d51164049b1aca96",
+      "bytes": 17431
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedRayNormalizer.lean": {
+      "sha256": "03d5cbd6985d25d3c255afd650a7bbbdea5d47e9ec2327ad0059ec0d854de443",
+      "bytes": 3459
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedSlotLengths.lean": {
+      "sha256": "c410620446809d41ebe9ca8919bfa38e3eaeda8678ea96e47b0df8ee428bb527",
+      "bytes": 3215
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedSourceData.lean": {
+      "sha256": "6863c0cf9121763bd0576000de5a5dbafe722246833fe70750fce29ca30396c3",
+      "bytes": 3415
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedSourceNormalization.lean": {
+      "sha256": "831cd1f85691bb7e6b860602c4af31d083acd116bd34efd626a39c8e5c85e1b5",
+      "bytes": 4694
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedSourceProbe.lean": {
+      "sha256": "b22eb31eaa1455fb5c77684399536a2b08bd2688b22393644c22ec9dbf3fa36e",
+      "bytes": 3436
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/RetunedUnselectedMass.lean": {
+      "sha256": "230e83c66319a7aeff6a3abdaf3a8a54868d7ed2df8805885187bdca6da89ead",
+      "bytes": 5582
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CanonicalCubeChoice.lean": {
+      "sha256": "6bb8fb6a04169d6d812f77ba87319ae25697773b554405f6561ce51d52781ccc",
+      "bytes": 4470
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CanonicalCubeReduction.lean": {
+      "sha256": "d3699b1dd237c89a99b04cf7f2e6f403572f2fdcd957b44516db70f3fff11b03",
+      "bytes": 5013
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CanonicalRayCube.lean": {
+      "sha256": "96aa5e3da0d1a819cef44a6c091fc0cef5f3db1a8dbc734b4f7d4cbcaa9e0b47",
+      "bytes": 5250
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CanonicalReduction.lean": {
+      "sha256": "5f652c951bdb7728b0a922080d7e6540d777db1dc855510d8f52f9b4a8359588",
+      "bytes": 4456
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CanonicalTails.lean": {
+      "sha256": "b77ad1ebcdf896527e7f70a04b53deacc4acea52f445a673c07d67d79222642b",
+      "bytes": 4954
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CentralCosts.lean": {
+      "sha256": "5d14940ff97fd66e02b0774ee87624a5c2f4f7f71942c60d73c168243b942e5e",
+      "bytes": 3368
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CentralTupleCount.lean": {
+      "sha256": "f1eaa38b6102bd8c710f6fb2a066fdb785ebd1bd9e23ca9ff9ac52be4e4c3c33",
+      "bytes": 1911
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CubeErrorSaving.lean": {
+      "sha256": "14d39728119c4044010e5ef1bc2e50f22033cf2066e449b437764f800773f465",
+      "bytes": 4256
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/CubeFiniteError.lean": {
+      "sha256": "5ac2460f895a7a7b5899421e9e3244ae3050ea0114b51d1baadc2ec0fe6170e6",
+      "bytes": 5699
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/GeometricTail.lean": {
+      "sha256": "e224e1a578dc19d662b3db7e9208d8530f161050aa194704bcf9745f091e3f62",
+      "bytes": 2798
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/LargeDyad.lean": {
+      "sha256": "19c172f2641984546df239b8ef41ee0bba6fae2add3b686864070e82a13e1135",
+      "bytes": 2851
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/LargeSaving.lean": {
+      "sha256": "48dcce485232c6cfa09aa1ce7238e308c428941c188f0114de7b40e43c14a187",
+      "bytes": 2707
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/LargeTail.lean": {
+      "sha256": "a1f40d59a1027939bf7b434ae3e1d3d92fe7c33d8fc66980da307e55dcd6b9bf",
+      "bytes": 3945
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/NormalizedTransport.lean": {
+      "sha256": "0aba111b934560e48a75c56713bc394678126722c1455681322c2e230980be37",
+      "bytes": 8640
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/NormalizedTransportSaving.lean": {
+      "sha256": "ad90ee8e62692147410d0e5f3b3ec98cdfebd082e90592ea2f4ee9f8a8ad5767",
+      "bytes": 6816
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/PhysicalLargeTail.lean": {
+      "sha256": "e2de076862fa30db64aa9001274364c951b84ef235e25dc2d6c05ad744b8f3bb",
+      "bytes": 3851
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/PhysicalSmallTail.lean": {
+      "sha256": "3e5359a61de282d9ba3cd76ae185302df164b9af3fcc891edc30a139f2b5a830",
+      "bytes": 3835
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/SmallTail.lean": {
+      "sha256": "20c90aa45f25c78adc6bc5e41b990afc87137014d6e1e8f3c539cd8dac4ebfb0",
+      "bytes": 4711
+    },
+    "submission/lean/OAI/BelowSevenEighthsTight/TailExtension/TailScales.lean": {
+      "sha256": "98f13fc4ece2ce62353cb99df764a8a83b2080a1791bb9af046ca68b132a495d",
+      "bytes": 2004
+    },
+    "submission/lean/docs/003-verification.json": {
+      "sha256": "70395966c1fb21af9c8e62498c80634c67d899bdbbc52809baeabe230be981df",
+      "bytes": 49313
+    },
+    "submission/lean/docs/003.md": {
+      "sha256": "70d18b5bf9890744f05b1430a72dfc6c0b3a5eea35dfe22f61a7cb227e279153",
+      "bytes": 4586
+    },
+    "verification/Family003IntegrationSmoke.lean": {
+      "sha256": "f81f66beeefb40b05838c1bbfe182fdad53c17e7623dace84fe456eaf372948e",
+      "bytes": 513
+    },
+    "verification/OfflineReplay.lean": {
+      "sha256": "96efdad0ad202c33a84724bbbc6a3aa887d67710d71ce7ef28a58fbaca4b901b",
+      "bytes": 2492
+    },
+    "verification/README.md": {
+      "sha256": "0c62ca0dc6f0044f6f8aefe28886cb0bbadb5c8fd94bd78e73fefa878820db27",
+      "bytes": 2752
+    },
+    "verification/verify_windows.py": {
+      "sha256": "61e1f7d5a02e299860e98b0d7482c0dc1412ba3faa8a0fee205e5f678471161b",
+      "bytes": 5231
+    }
+  },
+  "excluded": "Build caches, binaries, raw export streams, large logs and research history."
+}

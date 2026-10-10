@@ -1,0 +1,294 @@
+{
+  "base_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "manifest_sha256": "cf6105a25d9dca2f166b241d9191bd12c7e13305890dc9c4d0952351cccc0794",
+  "manifest_unchanged": true,
+  "packages": [
+    {
+      "name": "mathlib",
+      "revision": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+    },
+    {
+      "name": "checkdecls",
+      "revision": "3d425859e73fcfbef85b9638c2a91708ef4a22d4"
+    },
+    {
+      "name": "doc-gen4",
+      "revision": "953c8992d174b4e56955e01e101d46668c68f2bb"
+    },
+    {
+      "name": "PrimeCert",
+      "revision": "0803c2f6bd289c09704c7d352bb8fcf770cbb9b2"
+    },
+    {
+      "name": "LeanArchitect",
+      "revision": "468e8f58fb4ad6e6ad672a08da6d0d0531e95a97"
+    },
+    {
+      "name": "leancert",
+      "revision": "7f91b6eb3567437f6cfac03ed279706603ee22f4"
+    },
+    {
+      "name": "PrimeNumberTheoremAnd",
+      "revision": "c39a751132c88b6e8080b74c74023fd95b3d8be0"
+    },
+    {
+      "name": "belyi",
+      "revision": "9ce4d3f793d3bc831f2fc7214b7dbad90ea012d8"
+    },
+    {
+      "name": "formal-schemes",
+      "revision": "51aa935079537bf4dc580751a6e70727fb23ca93"
+    },
+    {
+      "name": "elliptic-curves",
+      "revision": "bebec3fc9f2602e81c83e5236789572a541c85fb"
+    },
+    {
+      "name": "tempered-fundamental-groups",
+      "revision": "2006651f52b70ea2fe3388238c7d9db14d21748f"
+    },
+    {
+      "name": "oka",
+      "revision": "75dcdc3faadd10b986afb9283e89902bcdddecd4"
+    },
+    {
+      "name": "orbicurve-cores",
+      "revision": "61616dcd77fbe45c083a8ebfa7cc80728f86e841"
+    },
+    {
+      "name": "pi1",
+      "revision": "ca7def953193f861a462aa0831eec8f0a31ff69f"
+    },
+    {
+      "name": "heights",
+      "revision": "721496ca4c158e511d25d8ccf6bfe8503eda73c1"
+    },
+    {
+      "name": "genl",
+      "revision": "ea2846c877d1e16d8f0b911a5fed07f5ee69eaaf"
+    },
+    {
+      "name": "tate-curves-theta",
+      "revision": "ca6c2279d3cea0690cdb01328e727118d5485d68"
+    },
+    {
+      "name": "iut",
+      "revision": "d9465c111ec4073709f67e9fccec7e3eb374a816"
+    },
+    {
+      "name": "gromov",
+      "revision": "8db79f13cf211b570e3116301d91379fbc01cf3e"
+    },
+    {
+      "name": "TauCeti",
+      "revision": "3bed7e37f3c504a99e8c07e9f309540812a7aa90"
+    },
+    {
+      "name": "SphereEversion",
+      "revision": "9c53f91e2a281199163ecea04dc4976cb79e2076"
+    },
+    {
+      "name": "schoenflies-lean",
+      "revision": "05a43d29cde026618777db3d4e4316204ccca237"
+    },
+    {
+      "name": "ClassFieldTheory",
+      "revision": "2eb22d6485af45f29c5219de6c49f196a61c4f49"
+    },
+    {
+      "name": "AINTLIB",
+      "revision": "160e446617a2168c34c95bbe7a76c4105b392434"
+    },
+    {
+      "name": "AbsorptionCutoff",
+      "revision": "41c45c6d72e979419e46224bb7b4be5cee31f2b5"
+    },
+    {
+      "name": "StrongPNT",
+      "revision": "2f5835c322314f55f1026ec2f139d704b7c45c69"
+    },
+    {
+      "name": "carleson",
+      "revision": "306ae5b29300771aece1aa39f0a939183cc59486"
+    },
+    {
+      "name": "rellich-kondrachov",
+      "revision": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23"
+    },
+    {
+      "name": "Zeta3Irrational",
+      "revision": "e8785315a01c8fbcddaa0fc03b3c8b29a61bc1f1"
+    },
+    {
+      "name": "fixed-point-theorems",
+      "revision": "770940ddf9878cf61952ed53d910b92bca841838"
+    },
+    {
+      "name": "plausible",
+      "revision": "118aa17ee84656b8bd727fef7c458ee8c833385c"
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "ddf04cf3949fa556442341e87d47f9f6e6074707"
+    },
+    {
+      "name": "importGraph",
+      "revision": "e928b72544873815af278d38681b31c0293588e3"
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5"
+    },
+    {
+      "name": "aesop",
+      "revision": "355695d523e41d0554926416cba2a2b3544fbbc9"
+    },
+    {
+      "name": "Qq",
+      "revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259"
+    },
+    {
+      "name": "batteries",
+      "revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2"
+    },
+    {
+      "name": "leansqlite",
+      "revision": "f9cdb9eacb5c8b8ecc02ee9fd9e568d7d28c1416"
+    },
+    {
+      "name": "Cli",
+      "revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    },
+    {
+      "name": "UnicodeBasic",
+      "revision": "0e569d08b6443ce0908d356884c765397253e2f0"
+    },
+    {
+      "name": "BibtexQuery",
+      "revision": "4d8616fd4870d0a3453d845770833eac7951fe1c"
+    },
+    {
+      "name": "MD4Lean",
+      "revision": "31907cc18f48a95384f99cee5582c00fb39e0f67"
+    }
+  ],
+  "official_patches": [
+    {
+      "path": "patches/AbsorptionCutoff-lean4341.patch",
+      "sha256": "8b35104dc12f807f594f7a61f7a183d967edcd0e601c7172e0e851e4c3adb3ba",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/AINTLIB-lean4341.patch",
+      "sha256": "076bee4cee068ad938e611d266bb32f7f1798189336087e88c08c8b3ac58dff1",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/belyi-lean4341.patch",
+      "sha256": "f54c2e211464c0f8194ce63a80a6562489f23f688b1c233efe3c2debfc1b9f66",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/carleson-lean4341.patch",
+      "sha256": "8aa67adaeb6ef56967aa78c47a6c743f03ac72c125f503219a72dee5be23168c",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/ClassFieldTheory-lean4341.patch",
+      "sha256": "0275686e2febd9c14523a94cbfae105e6cf30997ed0b2a1ea28c84d0d0c12ba5",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/elliptic-curves-lean4341.patch",
+      "sha256": "69e6575dae5797d43242694dc737b400b3e1e8fcb854094fead2a204a1f58632",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/fixed-point-theorems-lean4341.patch",
+      "sha256": "d70872e41e80b25191538d1659c4aa3a001349b5bd16f806c9e3833a502516e5",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/formal-schemes-lean4341.patch",
+      "sha256": "5376716aa94fe0c6907570d650dd6604f170687c218cea7028d09b9f95877cea",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/genl-lean4341.patch",
+      "sha256": "3a9edd7dd539e98f81145a3b6cc980c9d62a821b7d41e2591f9aa5c557a7b6fa",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/gromov-lean4341.patch",
+      "sha256": "26a1924bef774183a2e0865f144b782dc1f78eb0246993a31a5d63193b7781bb",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/heights-lean4341.patch",
+      "sha256": "bd3b58a301df273a199d9a0fe486b25d194df176afe32583289d42b64ab583a3",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/iut-lean4341.patch",
+      "sha256": "610ef069f7de5a5d500ead287287b60f193269ea4ddc0011101a9c7c98356dd4",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/oka-lean4341.patch",
+      "sha256": "02995b860e7d566a10adc3488439d38abc06dcb317ae4576d504c71c921816e7",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/orbicurve-cores-lean4341.patch",
+      "sha256": "4376110b9b7c823057cda21479a45de688c5138c81e5d4f1c050b632f168b93d",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/pi1-lean4341.patch",
+      "sha256": "816e0d8123d5622c5b3415675638053ae31126a829e4f21d96f7af28db292f5f",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/PrimeNumberTheoremAnd-lean4341.patch",
+      "sha256": "0890432340c0025973bcfe070b634355fa366cc831595f68526e4c73c8903d82",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/rellich-kondrachov-lean4341.patch",
+      "sha256": "0c121d8517dfeadc93ef24fe2deb56beec7cb3998e2552dee8f61c780b1408c8",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/schoenflies-lean-lean4341.patch",
+      "sha256": "4cbc255a2be785e6b617ecd61cdaf67e6d236d65a87f284380f2713670c8e350",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/SphereEversion-lean4341.patch",
+      "sha256": "5c7c8dba85e4636ed2fec14a5765e937f2b1c428eadb12168645b9d2c0046098",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/StrongPNT-lean4341.patch",
+      "sha256": "2cac5cbef22987314f9293bebcf243d0a3341caaf0227925d1f8d4c31be924d7",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/tate-curves-theta-lean4341.patch",
+      "sha256": "885a19a0dc2d004aaece1987e2b7d2ff4745aef8881cbc53971a852cc5644c3f",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/tempered-fundamental-groups-lean4341.patch",
+      "sha256": "f2e51b5f38459f11515c21801c92c39de85a8feb5f2b490ebbe07a93511a8860",
+      "reverse_check": "passed"
+    },
+    {
+      "path": "patches/Zeta3Irrational-lean4341.patch",
+      "sha256": "169eb72e9d12740688467a0e6abf63923a60ec5f7ce8f49ca4b3684a22418901",
+      "reverse_check": "passed"
+    }
+  ],
+  "all_passed": true,
+  "scope": "Read-only revision and patch checks on independently copied dependencies."
+}

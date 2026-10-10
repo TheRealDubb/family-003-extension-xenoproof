@@ -1,0 +1,24 @@
+{
+  "challenge_module": "ComparatorChallenges.FrontierTightPublicBoundary",
+  "solution_module": "OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary",
+  "challenge_modules": [
+    "ComparatorChallenges.FrontierTightPublicBoundary"
+  ],
+  "solution_modules": [
+    "OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary"
+  ],
+  "theorem_names": [
+    "BelowSevenEighthsTight.PublicResults.rational_boundary_lt_frozen_baseline",
+    "BelowSevenEighthsTight.PublicResults.rational_boundary_lt_seven_eighths",
+    "BelowSevenEighthsTight.PublicResults.riemannZeta_ne_zero_of_rational_lt_re",
+    "BelowSevenEighthsTight.PublicResults.dirichlet_LFunction_ne_zero_of_rational_lt_re",
+    "BelowSevenEighthsTight.PublicResults.hecke_LFunction_ne_zero_of_rational_lt_re"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "definition_names": [],
+  "enable_nanoda": false
+}

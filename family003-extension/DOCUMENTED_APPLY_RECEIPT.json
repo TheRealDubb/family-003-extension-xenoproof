@@ -1,0 +1,10 @@
+{
+  "base_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "commands": [
+    "git apply --check ../family-003-rational-bound.patch",
+    "git apply ../family-003-rational-bound.patch"
+  ],
+  "passed": true,
+  "proof_sources_match": true,
+  "candidate_cache_absent": true
+}

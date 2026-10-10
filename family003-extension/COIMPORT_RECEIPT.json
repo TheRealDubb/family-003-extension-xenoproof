@@ -1,0 +1,14 @@
+{
+  "command": [
+    "lake",
+    "build",
+    "ComparatorChallenges.Family003IntegrationSmoke"
+  ],
+  "cwd": "lean",
+  "exit_code": 0,
+  "seconds": 420.2114477157593,
+  "source_sha256": "f81f66beeefb40b05838c1bbfe182fdad53c17e7623dace84fe456eaf372948e",
+  "log_sha256": "b18e25d8690e3b234f46eef0c47d23c0013a4a614cf415dda0c485a5164502f4",
+  "output": "\u2139 [7254/7254] Built ComparatorChallenges.Family003IntegrationSmoke (12s)\ninfo: ComparatorChallenges/Family003IntegrationSmoke.lean:6:0: BelowSevenEighthsTight.PublicResults.riemannZeta_ne_zero_of_rational_lt_re (s : \u2102)\n  (hs : 8749570194201 / 10000000000000 < s.re) : riemannZeta s \u2260 0\ninfo: ComparatorChallenges/Family003IntegrationSmoke.lean:7:0: BelowSevenEighthsTight.PublicResults.dirichlet_LFunction_ne_zero_of_rational_lt_re {q : \u2115} [NeZero q]\n  (\u03c7 : DirichletCharacter \u2102 q) (s : \u2102) (hs : 8749570194201 / 10000000000000 < s.re) (hpole : \u00ac(\u03c7 = 1 \u2227 s = 1)) :\n  DirichletCharacter.LFunction \u03c7 s \u2260 0\ninfo: ComparatorChallenges/Family003IntegrationSmoke.lean:8:0: BelowSevenEighthsTight.PublicResults.hecke_LFunction_ne_zero_of_rational_lt_re\n  (\u03c7 : OAI.SevenEighths.HeckeFamily.Character) (s : \u2102) (hs : 8749570194201 / 10000000000000 < s.re)\n  (hpole : \u00ac(\u03c7.residue = 1 \u2227 s = 1)) : OAI.SevenEighths.HeckeFamily.LFunction \u03c7 s \u2260 0\nBuild completed successfully (7254 jobs).",
+  "output_scope": "Smoke target result only; full log retained locally and bound by log_sha256."
+}

@@ -1,0 +1,11 @@
+{
+  "build_attempt": 2,
+  "documented_Lake_command_exit_code": 0,
+  "build_log_terminal_result": "Build completed successfully (7254 jobs).",
+  "recorded_candidate_and_fixture_objects": 190,
+  "wrapper_process_exit_code": 1,
+  "wrapper_failure_stage": "Printing the saved build-log tail after the successful build receipt and object hashes had been written.",
+  "wrapper_error": "UnicodeEncodeError: the Windows cp1252 stdout codec could not encode the Lean diagnostic symbol U+2139.",
+  "correction": "The runner now explicitly configures UTF-8 stdout; the final documented build also runs Python in UTF-8 mode.",
+  "effect_on_Lake_exit_code_sources_objects_or_saved_log": "none"
+}

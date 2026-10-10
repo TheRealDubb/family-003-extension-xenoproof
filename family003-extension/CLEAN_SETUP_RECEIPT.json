@@ -1,0 +1,16 @@
+{
+  "base_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "patch_sha256": "e20be12dd9af173d4a7aca99feeb57f692147812f1c4a222bc2ce97427bafb4a",
+  "fresh_checkout": true,
+  "patch_apply_check": "passed",
+  "all_191_submission_sources_match": true,
+  "cache_provisioning": "Independent copies of pinned dependency and original-project caches; no extension or new fixture artifacts.",
+  "shared_writable_cache_files": false,
+  "new_proof_cache_present_before_build": false,
+  "new_fixture_cache_present_before_build": false,
+  "original_cache": {
+    "files": 23432,
+    "bytes": 13883322040
+  },
+  "seconds": 759.7329695224762
+}

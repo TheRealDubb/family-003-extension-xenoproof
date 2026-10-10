@@ -1,0 +1,8 @@
+import OAI.NumberTheory.DirichletL.Nonvanishing
+import OAI.NumberTheory.DirichletL.Hecke.Nonvanishing
+import OAI.BelowSevenEighthsTight.AssemblyExtension.PublicBoundary
+
+-- Integration-only check: original and extended results coexist in one environment.
+#check BelowSevenEighthsTight.PublicResults.riemannZeta_ne_zero_of_rational_lt_re
+#check BelowSevenEighthsTight.PublicResults.dirichlet_LFunction_ne_zero_of_rational_lt_re
+#check BelowSevenEighthsTight.PublicResults.hecke_LFunction_ne_zero_of_rational_lt_re
